@@ -13,7 +13,7 @@ on:
 jobs:
   conditional-job:
     runs-on: ubuntu-latest
-    environment: production   # this environment can have specific runtime rules and vars associated with it
+    environment: product   # this environment can have specific runtime rules and vars associated with it
 
     steps:
       - name: Checkout Repository
